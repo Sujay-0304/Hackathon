@@ -156,7 +156,7 @@
 .record-option{
     height: 200px;
     border-radius: 10%;
-    border: 1px solid #17a2b8;
+    border: 1px solid #cdac74;
     cursor: pointer;
     padding: 10px;
     vertical-align: middle;
@@ -179,7 +179,7 @@
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #17a2b8;
+    border: 1px solid #cdac74;
     width: 80%;
 }
 
