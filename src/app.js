@@ -21,6 +21,9 @@ app.get( '/signup', ( req, res ) => {
 app.get( '/video', ( req, res ) => {
     res.sendFile( __dirname + '/index.html' );
 });
+app.get( '/dashboard', ( req, res ) => {
+    res.sendFile( __dirname + '/dashboard.html' );
+});
 
 
 io.of( '/stream' ).on( 'connection', stream );
